@@ -1631,16 +1631,16 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// CUP Land Rovers
 	///////////////////////////////////////////////////////////////////////////////
-	class CUP_B_LR_Transport_CTK					{ quality = 1; price = 4500; };
+	class CUP_C_LR_Transport_CTK					{ quality = 1; price = 4500; };
 	class CUP_B_LR_Transport_CZ_W					{ quality = 1; price = 4500; };
 	class CUP_B_LR_Transport_CZ_D					{ quality = 1; price = 4500; };
-	class CUP_B_LR_Transport_TKA					{ quality = 1; price = 4500; };
-	class CUP_B_LR_Transport_TKM					{ quality = 1; price = 4500; };
+	class CUP_O_LR_Transport_TKA					{ quality = 1; price = 4500; };
+	class CUP_O_LR_Transport_TKM					{ quality = 1; price = 4500; };
 	class CUP_B_LR_Transport_GB_W					{ quality = 1; price = 4500; };
 	class CUP_B_LR_Transport_GB_D					{ quality = 1; price = 4500; };
 	class CUP_B_LR_MG_CZ_W							{ quality = 1; price = 6000; };
-	class CUP_B_LR_MG_TKA							{ quality = 1; price = 6000; };
-	class CUP_B_LR_MG_TKM							{ quality = 1; price = 6000; };
+	class CUP_O_LR_MG_TKA							{ quality = 1; price = 6000; };
+	class CUP_O_LR_MG_TKM							{ quality = 1; price = 6000; };
 	class CUP_B_LR_MG_GB_W							{ quality = 1; price = 6000; };
 	
 	///////////////////////////////////////////////////////////////////////////////
@@ -1656,7 +1656,7 @@ class CfgExileArsenal
 	class CUP_B_HMMWV_M2_GPK_USA					{ quality = 1; price = 6500; };
 	class CUP_B_HMMWV_M2_USA						{ quality = 1; price = 6500; };
 	class CUP_B_HMMWV_M2_USMC						{ quality = 1; price = 6500; };
-	class CUP_B_HMMWV_M1114_UMC						{ quality = 1; price = 6500; };
+	class CUP_B_HMMWV_M1114_USMC						{ quality = 1; price = 6500; };
 	
 	///////////////////////////////////////////////////////////////////////////////
 	// Cup Urals 
@@ -1713,11 +1713,11 @@ class CfgExileArsenal
 	class CUP_B_MH60S_FFV_USMC						{ quality = 1; price = 10000; };
 	class CUP_B_UH1Y_MEV_F							{ quality = 1; price = 8000; };
 	class CUP_B_UH1Y_UNA_F							{ quality = 1; price = 8000; };
-	class CUP_B_UH60l_FFV_RACS						{ quality = 1; price = 10000; };
+	class CUP_I_UH60l_FFV_RACS						{ quality = 1; price = 10000; };
 	class CUP_B_UH60l_FFV_US						{ quality = 1; price = 10000; };
-	class CUP_B_UH60l_Unarmed_RACS					{ quality = 1; price = 8000; };
+	class CUP_I_UH60l_Unarmed_RACS					{ quality = 1; price = 8000; };
 	class CUP_B_UH60l_Unarmed_US					{ quality = 1; price = 8000; };
-	class CUP_B_UH60l_Unarmed_FFV_RACS				{ quality = 1; price = 8000; };
+	class CUP_I_UH60l_Unarmed_FFV_Racs				{ quality = 1; price = 8000; };
 	class CUP_B_UH60l_Unarmed_FFV_US				{ quality = 1; price = 8000; };
 	class CUP_B_UH60M_US							{ quality = 1; price = 10000; };
 	class CUP_B_UH60M_US_FFV_US						{ quality = 1; price = 10000; };
@@ -1738,8 +1738,8 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	//CUP Planes
 	///////////////////////////////////////////////////////////////////////////////
-	class CUP_C_DC3_CIV								{ quality = 1; price = 5000; };
-	class CUP_C_C47_CIV								{ quality = 1; price = 15000; };
+	class CUP_C_DC3_CIV								{ quality = 1; price = 8000; };
+	class CUP_C_C47_CIV								{ quality = 1; price = 8000; };
 	class CUP_B_MV22_USMC							{ quality = 1; price = 25000; };
 	
 	///////////////////////////////////////////////////////////////////////////////
@@ -3308,11 +3308,11 @@ class CfgTraderCategories
 			"CUP_B_UAZ_Open_ACR",
 			"CUP_C_UAZ_Open_TK_CIV",
 			"CUP_I_UAZ_Open_UN",
-			"CUP_B_LR_Transport_CTK",
+			"CUP_C_LR_Transport_CTK",
 			"CUP_B_LR_Transport_CZ_W",
 			"CUP_B_LR_Transport_CZ_D",
-			"CUP_B_LR_Transport_TKA",
-			"CUP_B_LR_Transport_TKM",
+			"CUP_O_LR_Transport_TKA",
+			"CUP_O_LR_Transport_TKM",
 			"CUP_B_LR_Transport_GB_W",
 			"CUP_B_LR_Transport_GB_D",
 			"CUP_B_HMMWV_Unarmed_USA",
@@ -3374,8 +3374,8 @@ class CfgTraderCategories
 			"CUP_B_UAZ_MG_ACR",
 			"CUP_I_UAZ_MG_UN",
 			"CUP_B_LR_MG_CZ_W",
-			"CUP_B_LR_MG_TKA",
-			"CUP_B_LR_MG_TKM",
+			"CUP_O_LR_MG_TKA",
+			"CUP_O_LR_MG_TKM",
 			"CUP_B_LR_MG_GB_W",
 			"CUP_B_HMMWV_Crows_M2_USA",
 			"CUP_B_HMMWV_DSHKM_GPK_ACR",
@@ -3383,7 +3383,7 @@ class CfgTraderCategories
 			"CUP_B_HMMWV_M2_GPK_USA",
 			"CUP_B_HMMWV_M2_USA",
 			"CUP_B_HMMWV_M2_USMC",
-			"CUP_B_HMMWV_M1114_UMC",
+			"CUP_B_HMMWV_M1114_USMC",
 			"CUP_B_Dingo_Des",
 			"CUP_B_Dingo_Wdl",
 			"CUP_BAF_Jackal2_L2A1_D",
@@ -3414,11 +3414,11 @@ class CfgTraderCategories
 			"CUP_B_MH60S_FFV_USMC",
 			"CUP_B_UH1Y_MEV_F",
 			"CUP_B_UH1Y_UNA_F",
-			"CUP_B_UH60l_Unarmed_RACS",
+			"CUP_I_UH60l_Unarmed_RACS",
 			"CUP_B_UH60l_Unarmed_US",
-			"CUP_B_UH60l_Unarmed_FFV_RACS",
+			"CUP_I_UH60l_Unarmed_FFV_RACS",
 			"CUP_B_UH60l_Unarmed_FFV_US",
-			"CUP_B_UH60l_FFV_RACS",
+			"CUP_I_UH60l_FFV_Racs",
 			"CUP_B_UH60l_FFV_US",
 			"CUP_B_UH60M_Unarmed_US",
 			"CUP_B_UH60M_Unarmed_FFV_US",
