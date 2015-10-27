@@ -1720,7 +1720,7 @@ class CfgExileArsenal
 	class CUP_I_UH60l_Unarmed_FFV_Racs				{ quality = 1; price = 8000; };
 	class CUP_B_UH60l_Unarmed_FFV_US				{ quality = 1; price = 8000; };
 	class CUP_B_UH60M_US							{ quality = 1; price = 10000; };
-	class CUP_B_UH60M_US_FFV_US						{ quality = 1; price = 10000; };
+	class CUP_B_UH60M_FFV_US						{ quality = 1; price = 10000; };
 	class CUP_B_UH60M_Unarmed_US					{ quality = 1; price = 8000; };
 	class CUP_B_UH60M_Unarmed_FFV_US				{ quality = 1; price = 8000; };
 	class CUP_B_MI17_CDF							{ quality = 1; price = 10000; };
@@ -3423,7 +3423,7 @@ class CfgTraderCategories
 			"CUP_B_UH60M_Unarmed_US",
 			"CUP_B_UH60M_Unarmed_FFV_US",
 			"CUP_B_UH60M_US",
-			"CUP_B_UH60M_US_FFV_US",
+			"CUP_B_UH60M_FFV_US",
 			"CUP_C_MI17_Civilian_RU",
 			"CUP_B_MI171SH_Unarmed_ACR",
 			"CUP_B_MI17_CDF",
