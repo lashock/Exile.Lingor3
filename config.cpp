@@ -1707,8 +1707,6 @@ class CfgExileArsenal
 	////////////////////////////////////////////////////////////////////////////////
 	// CUP Helicopters 
 	///////////////////////////////////////////////////////////////////////////////
-	class CUP_B_AH64D_USA							{ quality = 1; price = 10000; };
-	class CUP_B_AH64D_GB							{ quality = 1; price = 10000; };
 	class CUP_B_MH60S_USMC							{ quality = 1; price = 10000; };
 	class CUP_B_MH60S_FFV_USMC						{ quality = 1; price = 10000; };
 	class CUP_B_UH1Y_MEV_F							{ quality = 1; price = 8000; };
@@ -3408,8 +3406,6 @@ class CfgTraderCategories
 			"Exile_Chopper_Taru_Covered_Black",
 			"Exile_Chopper_Taru_Transport_Black",
 			"Exile_Chopper_Orca_BlackCustom",
-			"CUP_B_AH64D_USA",
-			"CUP_B_AH64D_GB",
 			"CUP_B_MH60S_USMC",
 			"CUP_B_MH60S_FFV_USMC",
 			"CUP_B_UH1Y_MEV_F",
